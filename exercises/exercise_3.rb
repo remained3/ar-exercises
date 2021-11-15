@@ -6,3 +6,14 @@ puts "Exercise 3"
 puts "----------"
 
 # Your code goes here ...
+#puts Store.count
+@store3 = Store.find(3)
+#puts @store3.name
+@store3.destroy
+
+puts Store.count
+
+
+# Load the third store (into `@store3`) as you did the other two before.
+#Using Active Record's `destroy` method, delete the store from the database.
+#Verify that the store has been deleted by again outputting (`puts`ing) the `count` (as you did in Exercise 1.)
